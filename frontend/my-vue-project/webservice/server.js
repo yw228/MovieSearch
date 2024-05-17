@@ -8,7 +8,7 @@ const port = 3000;
 app.use(cors());
 
 // Your TMDB access token
-const TMDB_ACCESS_TOKEN = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NzdhMjQ5YzQwZWFkMjE1YmU5MjM0MTY3OWE2YWI3OSIsInN1YiI6IjY2NDdjYTg5ZWQ0MWNlZTU1NDI1YmZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MQUDmyq7wMtksH9q_u_g6B7Wc1KecFMYy9N7wmlh8oo';
+const TMDB_ACCESS_TOKEN = '';
 const TMDB_SEARCH_URL = 'https://api.themoviedb.org/3/search/movie';
 const TMDB_POPULAR_URL = 'https://api.themoviedb.org/3/search/movie';
 
